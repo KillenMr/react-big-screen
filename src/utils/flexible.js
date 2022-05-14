@@ -16,7 +16,7 @@
       .match(/initial\-scale=([\d\.]+)/);
     if (match) {
       scale = parseFloat(match[1]);
-      dpr = parseInt(1 / scale);
+      dpr = parseInt(1 / scale, 10);
     }
   } else if (flexibleEl) {
     var content = flexibleEl.getAttribute("content");
