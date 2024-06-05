@@ -6,6 +6,7 @@
 
 - 一个基于 React、Dva、DataV、ECharts 框架的 " **数据大屏项目** "。支持数据动态刷新渲染、屏幕适配、数据请求模拟、局部样式、图表自由替换/复用等功能。
 
+- [**React Hook 版本上线！采用 zustand 做全局状态管理**](https://gitee.com/MTrun/react-big-screen-plugin)
 - [**Vue3 版本请点击这里查看，使用 Hooks+TypeScript 实现，全新内容等你探索!**](https://gitee.com/MTrun/vue-big-screen-plugin)
 - [**Vue2 版本请点击这里查看，也很不错的(o ﾟ v ﾟ)ノ**](https://gitee.com/MTrun/big-screen-vue-datav)
 - 项目需要全屏展示（按 F11）。
