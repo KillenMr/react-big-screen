@@ -27,8 +27,9 @@ export const CenterBottom = styled.div`
       display: flex;
       align-items: center;
       position: relative;
-      // height: 1.5625rem;
+      height: 100%;
       flex: 1;
+      flex-direction: column;
       padding: 0 0.125rem;
       // width: 32%;
       margin-left: 0.125rem;

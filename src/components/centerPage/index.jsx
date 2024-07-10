@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { CenterPage, CenterBottom } from './style';
 import Map from './charts/Map';
+import Tree from './charts/Tree';
 import { connect } from 'dva';
 
 class index extends PureComponent {
@@ -10,7 +11,7 @@ class index extends PureComponent {
   }
 
   render() {
-    const { detailsList, mapData } = this.props;
+    const { detailsList, mapData, treeData } = this.props;
     return (
       <CenterPage>
         {/* <Map mapData={mapData}></Map> */}
@@ -20,7 +21,7 @@ class index extends PureComponent {
               ? detailsList.map((item, index) => {
                   return (
                     <div className='detail-list-item' key={index}>
-                      <img
+                      {/* <img
                         src={require(`../../assets/images/center-details-data${
                           index + 1
                         }.png`)}
@@ -30,7 +31,10 @@ class index extends PureComponent {
                         <h3>{item.title}</h3>
                         <span>{item.number}</span>
                         <span className='unit'>{item.unit}</span>
-                      </div>
+                      </div> */}
+                      <Tree treeData={treeData}></Tree>
+                      <Tree treeData={treeData}></Tree>
+                      <Tree treeData={treeData}></Tree>
                     </div>
                   );
                 })
@@ -45,7 +49,7 @@ class index extends PureComponent {
 const mapStateToProps = state => {
   return {
     detailsList: state.centerPage.detailsList,
-    mapData: state.centerPage.mapData,
+    treeData: state.centerPage.treeData,
   };
 };
 

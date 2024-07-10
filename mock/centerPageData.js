@@ -2190,5 +2190,64 @@ module.exports = {
         },
       ],
     },
+    treeData: [
+      {
+        name: "产业链1级节点",
+        label: {
+          normal: {
+            // backgroundColor: "#725bb8",
+          },
+        },
+        children: [
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+        ],
+      },
+      {
+        name: "产业链1级节点",
+        label: {
+          normal: {
+            // backgroundColor: "#725bb8",
+          },
+        },
+        children: [
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+        ],
+      },
+      {
+        name: "产业链1级节点",
+        label: {
+          normal: {
+            // backgroundColor: "#725bb8",
+          },
+        },
+        children: [
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+          {
+            name: "产业链2级节点",
+          },
+        ],
+      },
+    ],
   },
 };

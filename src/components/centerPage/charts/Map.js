@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import Chart from '../../../utils/chart';
-import { mapOptions } from './options';
+import { mapOptions } from "./mapOptions";
 
 class Map extends PureComponent {
   constructor(props) {

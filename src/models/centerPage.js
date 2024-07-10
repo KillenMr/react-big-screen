@@ -23,6 +23,7 @@ export default {
     *getCenterPageData({ payload }, { call, put }) {
       const data = yield call(getCenterPageData);
       if (data) {
+        console.log("data >>>", data);
         yield put({
           type: 'setData',
           payload: data,
