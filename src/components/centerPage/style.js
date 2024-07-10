@@ -13,13 +13,15 @@ export const CenterBottom = styled.div`
   margin-bottom: 0.25rem;
   margin-top: 0.875rem;
   width: 100%;
-  height: 3.25rem;
+  // height: 3.25rem;
+  flex: 1;
   .detail-list {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    flex: 1;
     align-items: center;
-    align-content: space-between;
-    justify-content: space-around;
+    // align-content: space-between;
+    // justify-content: space-around;
     width: 100%;
     &-item {
       display: flex;
