@@ -12,7 +12,7 @@ class index extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      title: '大数据可视化平台',
+      title: '吉林省科技大数据融合应用平台',
       timeStr: '',
       weekday: [
         '星期天',

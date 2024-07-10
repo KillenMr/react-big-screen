@@ -5,6 +5,7 @@ export const CenterPage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 `;
 
 export const CenterBottom = styled.div`
@@ -24,9 +25,11 @@ export const CenterBottom = styled.div`
       display: flex;
       align-items: center;
       position: relative;
-      height: 1.5625rem;
+      // height: 1.5625rem;
+      flex: 1;
       padding: 0 0.125rem;
-      width: 32%;
+      // width: 32%;
+      margin-left: 0.125rem;
       border-radius: 5px;
       border: 1px solid #343f4b;
       background-color: rgba(19, 25, 47, 0.8);

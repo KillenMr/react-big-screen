@@ -13,7 +13,7 @@ class index extends PureComponent {
     const { detailsList, mapData } = this.props;
     return (
       <CenterPage>
-        <Map mapData={mapData}></Map>
+        {/* <Map mapData={mapData}></Map> */}
         <CenterBottom>
           <div className='detail-list'>
             {detailsList

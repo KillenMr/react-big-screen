@@ -16,7 +16,7 @@ class TrafficSituation extends PureComponent {
     return (
       <div
         style={{
-          width: '5.375rem',
+          width: '7.375rem',
           height: '3.125rem',
         }}>
         {trafficSitua ? (
