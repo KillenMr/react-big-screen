@@ -1,17 +1,33 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CenterPage = styled.div`
   margin-top: 0.25rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   flex: 1;
+`;
+
+export const NamesView = styled.div`
+  margin-top: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
+
+export const NameBtn = styled.div`
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  color: "#fff";
 `;
 
 export const CenterBottom = styled.div`
   display: flex;
   margin-bottom: 0.25rem;
-  margin-top: 0.875rem;
+  margin-top: 0.15rem;
   width: 100%;
   // height: 3.25rem;
   flex: 1;

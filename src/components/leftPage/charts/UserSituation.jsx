@@ -18,7 +18,7 @@ class UserSituation extends PureComponent {
         // 行号表头
         indexHeader: '序号',
         // 宽度
-        columnWidth: [50, 100, 200],
+        columnWidth: [50, 200, 200, 80],
         // 对其方式
         align: ['center'],
         // 表行数

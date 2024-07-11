@@ -12,7 +12,7 @@ class index extends PureComponent {
     this.state = {};
   }
   render() {
-    const { userSitua, trafficSitua, accessFrequency, peakFlow } = this.props;
+    const { companyIndustrys, trafficSitua, accessFrequency, peakFlow } = this.props;
     return (
       <LeftPage>
         {/* 顶部图表 */}
@@ -45,10 +45,10 @@ class index extends PureComponent {
             <div className='left-bottom'>
               <ModuleTitle>
                 <i className='iconfont'>&#xe88e;</i>
-                <span>用户数据状态</span>
+                <span>机构信息</span>
               </ModuleTitle>
               {/* 图表 */}
-              <UserSituation userSitua={userSitua}></UserSituation>
+              <UserSituation userSitua={companyIndustrys}></UserSituation>
             </div>
           </BorderBox13>
         </LeftBottomBox>

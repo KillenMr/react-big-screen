@@ -92,6 +92,11 @@
     var rem = width / 24;
     docEl.style.fontSize = rem + "px";
     flexible.rem = win.rem = rem;
+
+    // 确保页面宽度自适应
+    docEl.style.width = "100%";
+    // 设置根元素最小高度
+    docEl.style.minHeight = "100vh";
   }
 
   win.addEventListener(

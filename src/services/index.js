@@ -20,3 +20,21 @@ export const getRightPageData = async () => {
     return response.data;
   });
 };
+
+// 获取行业节点
+export const getIndustryNodes = async () => {
+  return request("http://49.232.183.92:8000/api/get_industry_nodes_and_relations").then((response) => {
+    return response;
+  });
+};
+
+// 获取公司信息
+export const getCompanyInfo = async (params) => {
+  const queryString = new URLSearchParams(params).toString();
+  const fullUrl = `http://49.232.183.92:8000/api/search_all_company_for_industry?${queryString}`;
+  return request(fullUrl).then((response) => {
+    return response;
+  });
+};
+
+

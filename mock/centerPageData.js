@@ -2201,6 +2201,17 @@ module.exports = {
         children: [
           {
             name: "产业链2级节点",
+            children: [
+              {
+                name: "产业链2级节点",
+              },
+              {
+                name: "产业链2级节点",
+              },
+              {
+                name: "产业链2级节点",
+              },
+            ],
           },
           {
             name: "产业链2级节点",

@@ -198,7 +198,7 @@ export const trafficOptions = (params) => ({
   ],
 });
 
-export const userOptions = (params = {}) => ({
-  header: params.header,
-  data: params.data,
+export const userOptions = (data) => ({
+  header: ["公司名称", "行业", "法人", "状态"],
+  data,
 });
